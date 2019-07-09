@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		815C46F522D449C200CC9741 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C46F422D449C200CC9741 /* AppDelegate.m */; };
+		815C46F822D449C200CC9741 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C46F722D449C200CC9741 /* ViewController.m */; };
+		815C46FB22D449C200CC9741 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815C46F922D449C200CC9741 /* Main.storyboard */; };
+		815C46FD22D449C400CC9741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 815C46FC22D449C400CC9741 /* Assets.xcassets */; };
+		815C470022D449C400CC9741 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815C46FE22D449C400CC9741 /* LaunchScreen.storyboard */; };
+		815C470322D449C400CC9741 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C470222D449C400CC9741 /* main.m */; };
+		815C470D22D449C400CC9741 /* ThangRevisedContactPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C470C22D449C400CC9741 /* ThangRevisedContactPickerTests.m */; };
+		815C471822D449C400CC9741 /* ThangRevisedContactPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C471722D449C400CC9741 /* ThangRevisedContactPickerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		815C470922D449C400CC9741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 815C46E822D449C200CC9741 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 815C46EF22D449C200CC9741;
+			remoteInfo = ThangRevisedContactPicker;
+		};
+		815C471422D449C400CC9741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 815C46E822D449C200CC9741 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 815C46EF22D449C200CC9741;
+			remoteInfo = ThangRevisedContactPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		815C46F022D449C200CC9741 /* ThangRevisedContactPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThangRevisedContactPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		815C46F322D449C200CC9741 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		815C46F422D449C200CC9741 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		815C46F622D449C200CC9741 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		815C46F722D449C200CC9741 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		815C46FA22D449C200CC9741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		815C46FC22D449C400CC9741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		815C46FF22D449C400CC9741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		815C470122D449C400CC9741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		815C470222D449C400CC9741 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		815C470822D449C400CC9741 /* ThangRevisedContactPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThangRevisedContactPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		815C470C22D449C400CC9741 /* ThangRevisedContactPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThangRevisedContactPickerTests.m; sourceTree = "<group>"; };
+		815C470E22D449C400CC9741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		815C471322D449C400CC9741 /* ThangRevisedContactPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThangRevisedContactPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		815C471722D449C400CC9741 /* ThangRevisedContactPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThangRevisedContactPickerUITests.m; sourceTree = "<group>"; };
+		815C471922D449C400CC9741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		815C46ED22D449C200CC9741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815C470522D449C400CC9741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815C471022D449C400CC9741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		815C46E722D449C200CC9741 = {
+			isa = PBXGroup;
+			children = (
+				815C46F222D449C200CC9741 /* ThangRevisedContactPicker */,
+				815C470B22D449C400CC9741 /* ThangRevisedContactPickerTests */,
+				815C471622D449C400CC9741 /* ThangRevisedContactPickerUITests */,
+				815C46F122D449C200CC9741 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		815C46F122D449C200CC9741 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				815C46F022D449C200CC9741 /* ThangRevisedContactPicker.app */,
+				815C470822D449C400CC9741 /* ThangRevisedContactPickerTests.xctest */,
+				815C471322D449C400CC9741 /* ThangRevisedContactPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		815C46F222D449C200CC9741 /* ThangRevisedContactPicker */ = {
+			isa = PBXGroup;
+			children = (
+				815C46F322D449C200CC9741 /* AppDelegate.h */,
+				815C46F422D449C200CC9741 /* AppDelegate.m */,
+				815C46F622D449C200CC9741 /* ViewController.h */,
+				815C46F722D449C200CC9741 /* ViewController.m */,
+				815C46F922D449C200CC9741 /* Main.storyboard */,
+				815C46FC22D449C400CC9741 /* Assets.xcassets */,
+				815C46FE22D449C400CC9741 /* LaunchScreen.storyboard */,
+				815C470122D449C400CC9741 /* Info.plist */,
+				815C470222D449C400CC9741 /* main.m */,
+			);
+			path = ThangRevisedContactPicker;
+			sourceTree = "<group>";
+		};
+		815C470B22D449C400CC9741 /* ThangRevisedContactPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				815C470C22D449C400CC9741 /* ThangRevisedContactPickerTests.m */,
+				815C470E22D449C400CC9741 /* Info.plist */,
+			);
+			path = ThangRevisedContactPickerTests;
+			sourceTree = "<group>";
+		};
+		815C471622D449C400CC9741 /* ThangRevisedContactPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				815C471722D449C400CC9741 /* ThangRevisedContactPickerUITests.m */,
+				815C471922D449C400CC9741 /* Info.plist */,
+			);
+			path = ThangRevisedContactPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		815C46EF22D449C200CC9741 /* ThangRevisedContactPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815C471C22D449C400CC9741 /* Build configuration list for PBXNativeTarget "ThangRevisedContactPicker" */;
+			buildPhases = (
+				815C46EC22D449C200CC9741 /* Sources */,
+				815C46ED22D449C200CC9741 /* Frameworks */,
+				815C46EE22D449C200CC9741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThangRevisedContactPicker;
+			productName = ThangRevisedContactPicker;
+			productReference = 815C46F022D449C200CC9741 /* ThangRevisedContactPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		815C470722D449C400CC9741 /* ThangRevisedContactPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815C471F22D449C400CC9741 /* Build configuration list for PBXNativeTarget "ThangRevisedContactPickerTests" */;
+			buildPhases = (
+				815C470422D449C400CC9741 /* Sources */,
+				815C470522D449C400CC9741 /* Frameworks */,
+				815C470622D449C400CC9741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				815C470A22D449C400CC9741 /* PBXTargetDependency */,
+			);
+			name = ThangRevisedContactPickerTests;
+			productName = ThangRevisedContactPickerTests;
+			productReference = 815C470822D449C400CC9741 /* ThangRevisedContactPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		815C471222D449C400CC9741 /* ThangRevisedContactPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815C472222D449C400CC9741 /* Build configuration list for PBXNativeTarget "ThangRevisedContactPickerUITests" */;
+			buildPhases = (
+				815C470F22D449C400CC9741 /* Sources */,
+				815C471022D449C400CC9741 /* Frameworks */,
+				815C471122D449C400CC9741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				815C471522D449C400CC9741 /* PBXTargetDependency */,
+			);
+			name = ThangRevisedContactPickerUITests;
+			productName = ThangRevisedContactPickerUITests;
+			productReference = 815C471322D449C400CC9741 /* ThangRevisedContactPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		815C46E822D449C200CC9741 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = ThangNVH;
+				TargetAttributes = {
+					815C46EF22D449C200CC9741 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					815C470722D449C400CC9741 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 815C46EF22D449C200CC9741;
+					};
+					815C471222D449C400CC9741 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 815C46EF22D449C200CC9741;
+					};
+				};
+			};
+			buildConfigurationList = 815C46EB22D449C200CC9741 /* Build configuration list for PBXProject "ThangRevisedContactPicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 815C46E722D449C200CC9741;
+			productRefGroup = 815C46F122D449C200CC9741 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				815C46EF22D449C200CC9741 /* ThangRevisedContactPicker */,
+				815C470722D449C400CC9741 /* ThangRevisedContactPickerTests */,
+				815C471222D449C400CC9741 /* ThangRevisedContactPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		815C46EE22D449C200CC9741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815C470022D449C400CC9741 /* LaunchScreen.storyboard in Resources */,
+				815C46FD22D449C400CC9741 /* Assets.xcassets in Resources */,
+				815C46FB22D449C200CC9741 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815C470622D449C400CC9741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815C471122D449C400CC9741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		815C46EC22D449C200CC9741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815C46F822D449C200CC9741 /* ViewController.m in Sources */,
+				815C470322D449C400CC9741 /* main.m in Sources */,
+				815C46F522D449C200CC9741 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815C470422D449C400CC9741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815C470D22D449C400CC9741 /* ThangRevisedContactPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815C470F22D449C400CC9741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815C471822D449C400CC9741 /* ThangRevisedContactPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		815C470A22D449C400CC9741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 815C46EF22D449C200CC9741 /* ThangRevisedContactPicker */;
+			targetProxy = 815C470922D449C400CC9741 /* PBXContainerItemProxy */;
+		};
+		815C471522D449C400CC9741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 815C46EF22D449C200CC9741 /* ThangRevisedContactPicker */;
+			targetProxy = 815C471422D449C400CC9741 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		815C46F922D449C200CC9741 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				815C46FA22D449C200CC9741 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		815C46FE22D449C400CC9741 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				815C46FF22D449C400CC9741 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		815C471A22D449C400CC9741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		815C471B22D449C400CC9741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		815C471D22D449C400CC9741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SKQY859ZK7;
+				INFOPLIST_FILE = ThangRevisedContactPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zalo-fresher.ThangRevisedContactPicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		815C471E22D449C400CC9741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SKQY859ZK7;
+				INFOPLIST_FILE = ThangRevisedContactPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zalo-fresher.ThangRevisedContactPicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		815C472022D449C400CC9741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SKQY859ZK7;
+				INFOPLIST_FILE = ThangRevisedContactPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zalo-fresher.ThangRevisedContactPickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThangRevisedContactPicker.app/ThangRevisedContactPicker";
+			};
+			name = Debug;
+		};
+		815C472122D449C400CC9741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SKQY859ZK7;
+				INFOPLIST_FILE = ThangRevisedContactPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zalo-fresher.ThangRevisedContactPickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThangRevisedContactPicker.app/ThangRevisedContactPicker";
+			};
+			name = Release;
+		};
+		815C472322D449C400CC9741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SKQY859ZK7;
+				INFOPLIST_FILE = ThangRevisedContactPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zalo-fresher.ThangRevisedContactPickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThangRevisedContactPicker;
+			};
+			name = Debug;
+		};
+		815C472422D449C400CC9741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SKQY859ZK7;
+				INFOPLIST_FILE = ThangRevisedContactPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zalo-fresher.ThangRevisedContactPickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThangRevisedContactPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		815C46EB22D449C200CC9741 /* Build configuration list for PBXProject "ThangRevisedContactPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815C471A22D449C400CC9741 /* Debug */,
+				815C471B22D449C400CC9741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		815C471C22D449C400CC9741 /* Build configuration list for PBXNativeTarget "ThangRevisedContactPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815C471D22D449C400CC9741 /* Debug */,
+				815C471E22D449C400CC9741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		815C471F22D449C400CC9741 /* Build configuration list for PBXNativeTarget "ThangRevisedContactPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815C472022D449C400CC9741 /* Debug */,
+				815C472122D449C400CC9741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		815C472222D449C400CC9741 /* Build configuration list for PBXNativeTarget "ThangRevisedContactPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815C472322D449C400CC9741 /* Debug */,
+				815C472422D449C400CC9741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 815C46E822D449C200CC9741 /* Project object */;
+}
