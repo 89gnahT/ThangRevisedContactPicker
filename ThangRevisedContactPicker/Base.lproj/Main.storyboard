@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,105 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v9X-uJ-sh9">
+                                <rect key="frame" x="96.5" y="433" width="221" height="30"/>
+                                <state key="normal" title="Pick contact from your Contacts"/>
+                                <connections>
+                                    <segue destination="S0G-z4-Jhj" kind="show" id="k2c-AH-dsh"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="v9X-uJ-sh9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="awT-5c-pYc"/>
+                            <constraint firstItem="v9X-uJ-sh9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oUe-Gr-F3d"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Contact Picker View Controller-->
+        <scene sceneID="ah9-Bk-idV">
+            <objects>
+                <viewController id="S0G-z4-Jhj" customClass="ContactPickerViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="60S-Og-lLn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TKh-1Z-IhH" customClass="ContactTableView">
+                                <rect key="frame" x="0.0" y="214" width="414" height="648"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wwL-fl-NIA" customClass="ContactCollectionView">
+                                <rect key="frame" x="0.0" y="88" width="414" height="70"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="lgM-uC-sfU"/>
+                                </constraints>
+                            </view>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Dmj-tu-ryW">
+                                <rect key="frame" x="0.0" y="158" width="414" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="30T-EN-sK9">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <items>
+                                    <navigationItem id="lpY-wx-I0O">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="5Rp-hs-4i0">
+                                            <connections>
+                                                <action selector="onButtonBackClicked:" destination="S0G-z4-Jhj" id="o4V-JR-ZS2"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Send SMS" id="cUW-4C-ZjM">
+                                            <connections>
+                                                <action selector="onButtonSendSMSClicked:" destination="S0G-z4-Jhj" id="FBv-sy-ZyV"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Vvn-xm-kGc" firstAttribute="trailing" secondItem="wwL-fl-NIA" secondAttribute="trailing" id="0QG-tp-eFc"/>
+                            <constraint firstItem="wwL-fl-NIA" firstAttribute="top" secondItem="30T-EN-sK9" secondAttribute="bottom" id="31d-fC-z6L"/>
+                            <constraint firstItem="30T-EN-sK9" firstAttribute="centerX" secondItem="60S-Og-lLn" secondAttribute="centerX" id="9mh-Xw-OPO"/>
+                            <constraint firstItem="TKh-1Z-IhH" firstAttribute="top" secondItem="Dmj-tu-ryW" secondAttribute="bottom" id="BAR-bg-Fyf"/>
+                            <constraint firstItem="wwL-fl-NIA" firstAttribute="centerX" secondItem="60S-Og-lLn" secondAttribute="centerX" id="G7d-E3-ye9"/>
+                            <constraint firstItem="wwL-fl-NIA" firstAttribute="leading" secondItem="Vvn-xm-kGc" secondAttribute="leading" id="MC6-7F-bbw"/>
+                            <constraint firstItem="30T-EN-sK9" firstAttribute="top" secondItem="Vvn-xm-kGc" secondAttribute="top" id="QkI-hN-UMw"/>
+                            <constraint firstItem="TKh-1Z-IhH" firstAttribute="leading" secondItem="Vvn-xm-kGc" secondAttribute="leading" id="TZ5-mT-UBY"/>
+                            <constraint firstItem="TKh-1Z-IhH" firstAttribute="bottom" secondItem="Vvn-xm-kGc" secondAttribute="bottom" id="TZB-Zf-UPj"/>
+                            <constraint firstItem="30T-EN-sK9" firstAttribute="trailing" secondItem="Vvn-xm-kGc" secondAttribute="trailing" id="e1l-YK-Sas"/>
+                            <constraint firstItem="Dmj-tu-ryW" firstAttribute="centerX" secondItem="60S-Og-lLn" secondAttribute="centerX" id="f6y-9U-d3T"/>
+                            <constraint firstItem="TKh-1Z-IhH" firstAttribute="trailing" secondItem="Vvn-xm-kGc" secondAttribute="trailing" id="h6h-u8-Hf9"/>
+                            <constraint firstItem="Dmj-tu-ryW" firstAttribute="leading" secondItem="Vvn-xm-kGc" secondAttribute="leading" id="jpU-Tc-D3l"/>
+                            <constraint firstItem="30T-EN-sK9" firstAttribute="leading" secondItem="Vvn-xm-kGc" secondAttribute="leading" id="kZj-Ij-WLV"/>
+                            <constraint firstItem="Dmj-tu-ryW" firstAttribute="trailing" secondItem="Vvn-xm-kGc" secondAttribute="trailing" id="mNx-RJ-lkj"/>
+                            <constraint firstItem="Dmj-tu-ryW" firstAttribute="top" secondItem="wwL-fl-NIA" secondAttribute="bottom" id="tVm-qn-gkX"/>
+                            <constraint firstItem="TKh-1Z-IhH" firstAttribute="centerX" secondItem="60S-Og-lLn" secondAttribute="centerX" id="u7R-LL-mHz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Vvn-xm-kGc"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonSendSMS" destination="cUW-4C-ZjM" id="Qr0-dc-IVw"/>
+                        <outlet property="contactCollectionView" destination="wwL-fl-NIA" id="5Jt-gw-uVf"/>
+                        <outlet property="contactSearchBar" destination="Dmj-tu-ryW" id="Sba-PE-HOn"/>
+                        <outlet property="contactTableView" destination="TKh-1Z-IhH" id="tRv-QL-4u0"/>
+                        <outlet property="heightCollectionView" destination="lgM-uC-sfU" id="0yq-ie-IQa"/>
+                        <outlet property="navigationBar" destination="30T-EN-sK9" id="AXc-5C-0hZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y8R-Sy-3la" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1474" y="19"/>
         </scene>
     </scenes>
 </document>

@@ -15,6 +15,20 @@
 		815C470322D449C400CC9741 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C470222D449C400CC9741 /* main.m */; };
 		815C470D22D449C400CC9741 /* ThangRevisedContactPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C470C22D449C400CC9741 /* ThangRevisedContactPickerTests.m */; };
 		815C471822D449C400CC9741 /* ThangRevisedContactPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C471722D449C400CC9741 /* ThangRevisedContactPickerUITests.m */; };
+		815C472A22D44A8000CC9741 /* ContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C472922D44A8000CC9741 /* ContactModel.m */; };
+		815C472E22D44A9800CC9741 /* ContactStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C472D22D44A9800CC9741 /* ContactStore.m */; };
+		815C473622D44BF300CC9741 /* ZAContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C473522D44BF300CC9741 /* ZAContactModel.m */; };
+		815C473922D44BFC00CC9741 /* ZAContactStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C473822D44BFC00CC9741 /* ZAContactStore.m */; };
+		81833AA022D57D620018E1E0 /* ContactPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81833A9F22D57D620018E1E0 /* ContactPickerViewController.m */; };
+		81833AA722D57D9D0018E1E0 /* ContactTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81833AA622D57D9D0018E1E0 /* ContactTableView.m */; };
+		81833AAC22D57DC80018E1E0 /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81833AAA22D57DC80018E1E0 /* ContactTableViewCell.m */; };
+		81833AAD22D57DC80018E1E0 /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81833AAB22D57DC80018E1E0 /* ContactTableViewCell.xib */; };
+		81B7CC2022D5CBB5004E4278 /* ZAContactCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B7CC1F22D5CBB5004E4278 /* ZAContactCellViewModel.m */; };
+		81F7444622D5CDA100D4173A /* ZAContactViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F7444522D5CDA100D4173A /* ZAContactViewModel.m */; };
+		81FEB6C722D7174A00885B08 /* ContactCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FEB6C522D7174A00885B08 /* ContactCollectionViewCell.m */; };
+		81FEB6C822D7174A00885B08 /* ContactCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FEB6C622D7174A00885B08 /* ContactCollectionViewCell.xib */; };
+		81FEB6CB22D7176200885B08 /* ContactCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FEB6CA22D7176200885B08 /* ContactCollectionView.m */; };
+		81FEB6DA22D7461200885B08 /* CustomCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FEB6D922D7461200885B08 /* CustomCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +65,32 @@
 		815C471322D449C400CC9741 /* ThangRevisedContactPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThangRevisedContactPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		815C471722D449C400CC9741 /* ThangRevisedContactPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThangRevisedContactPickerUITests.m; sourceTree = "<group>"; };
 		815C471922D449C400CC9741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		815C472822D44A8000CC9741 /* ContactModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactModel.h; sourceTree = "<group>"; };
+		815C472922D44A8000CC9741 /* ContactModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactModel.m; sourceTree = "<group>"; };
+		815C472C22D44A9800CC9741 /* ContactStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactStore.h; sourceTree = "<group>"; };
+		815C472D22D44A9800CC9741 /* ContactStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactStore.m; sourceTree = "<group>"; };
+		815C473422D44BF300CC9741 /* ZAContactModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAContactModel.h; sourceTree = "<group>"; };
+		815C473522D44BF300CC9741 /* ZAContactModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAContactModel.m; sourceTree = "<group>"; };
+		815C473722D44BFC00CC9741 /* ZAContactStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAContactStore.h; sourceTree = "<group>"; };
+		815C473822D44BFC00CC9741 /* ZAContactStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAContactStore.m; sourceTree = "<group>"; };
+		81833A9E22D57D620018E1E0 /* ContactPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactPickerViewController.h; sourceTree = "<group>"; };
+		81833A9F22D57D620018E1E0 /* ContactPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactPickerViewController.m; sourceTree = "<group>"; };
+		81833AA522D57D9D0018E1E0 /* ContactTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactTableView.h; sourceTree = "<group>"; };
+		81833AA622D57D9D0018E1E0 /* ContactTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactTableView.m; sourceTree = "<group>"; };
+		81833AA922D57DC80018E1E0 /* ContactTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactTableViewCell.h; sourceTree = "<group>"; };
+		81833AAA22D57DC80018E1E0 /* ContactTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewCell.m; sourceTree = "<group>"; };
+		81833AAB22D57DC80018E1E0 /* ContactTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
+		81B7CC1E22D5CBB5004E4278 /* ZAContactCellViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAContactCellViewModel.h; sourceTree = "<group>"; };
+		81B7CC1F22D5CBB5004E4278 /* ZAContactCellViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAContactCellViewModel.m; sourceTree = "<group>"; };
+		81F7444422D5CDA100D4173A /* ZAContactViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAContactViewModel.h; sourceTree = "<group>"; };
+		81F7444522D5CDA100D4173A /* ZAContactViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAContactViewModel.m; sourceTree = "<group>"; };
+		81FEB6C422D7174A00885B08 /* ContactCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactCollectionViewCell.h; sourceTree = "<group>"; };
+		81FEB6C522D7174A00885B08 /* ContactCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactCollectionViewCell.m; sourceTree = "<group>"; };
+		81FEB6C622D7174A00885B08 /* ContactCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactCollectionViewCell.xib; sourceTree = "<group>"; };
+		81FEB6C922D7176200885B08 /* ContactCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactCollectionView.h; sourceTree = "<group>"; };
+		81FEB6CA22D7176200885B08 /* ContactCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactCollectionView.m; sourceTree = "<group>"; };
+		81FEB6D822D7461200885B08 /* CustomCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCache.h; sourceTree = "<group>"; };
+		81FEB6D922D7461200885B08 /* CustomCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +118,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8128F4E122D84242007F5807 /* Empty View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Empty View";
+			sourceTree = "<group>";
+		};
 		815C46E722D449C200CC9741 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +148,11 @@
 		815C46F222D449C200CC9741 /* ThangRevisedContactPicker */ = {
 			isa = PBXGroup;
 			children = (
+				815C473A22D44D7000CC9741 /* Presentation layer */,
+				815C472F22D44BAB00CC9741 /* Business layer */,
+				815C472522D449D500CC9741 /* Data layer */,
 				815C46F322D449C200CC9741 /* AppDelegate.h */,
 				815C46F422D449C200CC9741 /* AppDelegate.m */,
-				815C46F622D449C200CC9741 /* ViewController.h */,
-				815C46F722D449C200CC9741 /* ViewController.m */,
 				815C46F922D449C200CC9741 /* Main.storyboard */,
 				815C46FC22D449C400CC9741 /* Assets.xcassets */,
 				815C46FE22D449C400CC9741 /* LaunchScreen.storyboard */,
@@ -130,6 +178,200 @@
 				815C471922D449C400CC9741 /* Info.plist */,
 			);
 			path = ThangRevisedContactPickerUITests;
+			sourceTree = "<group>";
+		};
+		815C472522D449D500CC9741 /* Data layer */ = {
+			isa = PBXGroup;
+			children = (
+				815C472722D44A6400CC9741 /* ContactStore */,
+				815C472622D44A5A00CC9741 /* ContactModel */,
+			);
+			path = "Data layer";
+			sourceTree = "<group>";
+		};
+		815C472622D44A5A00CC9741 /* ContactModel */ = {
+			isa = PBXGroup;
+			children = (
+				815C472822D44A8000CC9741 /* ContactModel.h */,
+				815C472922D44A8000CC9741 /* ContactModel.m */,
+			);
+			path = ContactModel;
+			sourceTree = "<group>";
+		};
+		815C472722D44A6400CC9741 /* ContactStore */ = {
+			isa = PBXGroup;
+			children = (
+				815C472C22D44A9800CC9741 /* ContactStore.h */,
+				815C472D22D44A9800CC9741 /* ContactStore.m */,
+			);
+			path = ContactStore;
+			sourceTree = "<group>";
+		};
+		815C472F22D44BAB00CC9741 /* Business layer */ = {
+			isa = PBXGroup;
+			children = (
+				815C473022D44BB700CC9741 /* ZAContactPicker */,
+			);
+			path = "Business layer";
+			sourceTree = "<group>";
+		};
+		815C473022D44BB700CC9741 /* ZAContactPicker */ = {
+			isa = PBXGroup;
+			children = (
+				815C473322D44BE000CC9741 /* ZAContactStore */,
+				815C473222D44BD100CC9741 /* ZAContactModel */,
+			);
+			path = ZAContactPicker;
+			sourceTree = "<group>";
+		};
+		815C473222D44BD100CC9741 /* ZAContactModel */ = {
+			isa = PBXGroup;
+			children = (
+				815C473422D44BF300CC9741 /* ZAContactModel.h */,
+				815C473522D44BF300CC9741 /* ZAContactModel.m */,
+			);
+			path = ZAContactModel;
+			sourceTree = "<group>";
+		};
+		815C473322D44BE000CC9741 /* ZAContactStore */ = {
+			isa = PBXGroup;
+			children = (
+				815C473722D44BFC00CC9741 /* ZAContactStore.h */,
+				815C473822D44BFC00CC9741 /* ZAContactStore.m */,
+			);
+			path = ZAContactStore;
+			sourceTree = "<group>";
+		};
+		815C473A22D44D7000CC9741 /* Presentation layer */ = {
+			isa = PBXGroup;
+			children = (
+				81FEB6CC22D742E600885B08 /* Utility */,
+				81833A9B22D57D0F0018E1E0 /* ViewController */,
+				81833A9A22D57D080018E1E0 /* Templates */,
+				81833AAE22D58AFC0018E1E0 /* ViewModel */,
+			);
+			path = "Presentation layer";
+			sourceTree = "<group>";
+		};
+		81833A9A22D57D080018E1E0 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				81833AA222D57D700018E1E0 /* CollectionView */,
+				81833AA122D57D6A0018E1E0 /* TableView */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		81833A9B22D57D0F0018E1E0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				81833A9C22D57D290018E1E0 /* StartPageViewController */,
+				81833A9D22D57D390018E1E0 /* ContactPickerViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		81833A9C22D57D290018E1E0 /* StartPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				815C46F622D449C200CC9741 /* ViewController.h */,
+				815C46F722D449C200CC9741 /* ViewController.m */,
+			);
+			path = StartPageViewController;
+			sourceTree = "<group>";
+		};
+		81833A9D22D57D390018E1E0 /* ContactPickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				81833A9E22D57D620018E1E0 /* ContactPickerViewController.h */,
+				81833A9F22D57D620018E1E0 /* ContactPickerViewController.m */,
+			);
+			path = ContactPickerViewController;
+			sourceTree = "<group>";
+		};
+		81833AA122D57D6A0018E1E0 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				81833AA522D57D9D0018E1E0 /* ContactTableView.h */,
+				81833AA622D57D9D0018E1E0 /* ContactTableView.m */,
+				81833AA322D57D810018E1E0 /* Cell */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		81833AA222D57D700018E1E0 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				81FEB6C922D7176200885B08 /* ContactCollectionView.h */,
+				81FEB6CA22D7176200885B08 /* ContactCollectionView.m */,
+				81833AA422D57D8A0018E1E0 /* Cell */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		81833AA322D57D810018E1E0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				81833AA922D57DC80018E1E0 /* ContactTableViewCell.h */,
+				81833AAA22D57DC80018E1E0 /* ContactTableViewCell.m */,
+				81833AAB22D57DC80018E1E0 /* ContactTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		81833AA422D57D8A0018E1E0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				81FEB6C422D7174A00885B08 /* ContactCollectionViewCell.h */,
+				81FEB6C522D7174A00885B08 /* ContactCollectionViewCell.m */,
+				81FEB6C622D7174A00885B08 /* ContactCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		81833AAE22D58AFC0018E1E0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				81F7444322D5CD6500D4173A /* For ViewController */,
+				81B7CC1C22D5CB99004E4278 /* For Cell */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		81B7CC1C22D5CB99004E4278 /* For Cell */ = {
+			isa = PBXGroup;
+			children = (
+				81B7CC1E22D5CBB5004E4278 /* ZAContactCellViewModel.h */,
+				81B7CC1F22D5CBB5004E4278 /* ZAContactCellViewModel.m */,
+			);
+			path = "For Cell";
+			sourceTree = "<group>";
+		};
+		81F7444322D5CD6500D4173A /* For ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				81F7444422D5CDA100D4173A /* ZAContactViewModel.h */,
+				81F7444522D5CDA100D4173A /* ZAContactViewModel.m */,
+			);
+			path = "For ViewController";
+			sourceTree = "<group>";
+		};
+		81FEB6CC22D742E600885B08 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8128F4E122D84242007F5807 /* Empty View */,
+				81FEB6CD22D742F400885B08 /* Avatar cache */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		81FEB6CD22D742F400885B08 /* Avatar cache */ = {
+			isa = PBXGroup;
+			children = (
+				81FEB6D822D7461200885B08 /* CustomCache.h */,
+				81FEB6D922D7461200885B08 /* CustomCache.m */,
+			);
+			path = "Avatar cache";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +477,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81FEB6C822D7174A00885B08 /* ContactCollectionViewCell.xib in Resources */,
+				81833AAD22D57DC80018E1E0 /* ContactTableViewCell.xib in Resources */,
 				815C470022D449C400CC9741 /* LaunchScreen.storyboard in Resources */,
 				815C46FD22D449C400CC9741 /* Assets.xcassets in Resources */,
 				815C46FB22D449C200CC9741 /* Main.storyboard in Resources */,
@@ -263,8 +507,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				815C46F822D449C200CC9741 /* ViewController.m in Sources */,
+				81FEB6CB22D7176200885B08 /* ContactCollectionView.m in Sources */,
+				81833AA022D57D620018E1E0 /* ContactPickerViewController.m in Sources */,
+				81833AAC22D57DC80018E1E0 /* ContactTableViewCell.m in Sources */,
+				815C473622D44BF300CC9741 /* ZAContactModel.m in Sources */,
+				81FEB6DA22D7461200885B08 /* CustomCache.m in Sources */,
 				815C470322D449C400CC9741 /* main.m in Sources */,
+				81FEB6C722D7174A00885B08 /* ContactCollectionViewCell.m in Sources */,
+				815C472A22D44A8000CC9741 /* ContactModel.m in Sources */,
+				81B7CC2022D5CBB5004E4278 /* ZAContactCellViewModel.m in Sources */,
+				81833AA722D57D9D0018E1E0 /* ContactTableView.m in Sources */,
 				815C46F522D449C200CC9741 /* AppDelegate.m in Sources */,
+				815C472E22D44A9800CC9741 /* ContactStore.m in Sources */,
+				81F7444622D5CDA100D4173A /* ZAContactViewModel.m in Sources */,
+				815C473922D44BFC00CC9741 /* ZAContactStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +694,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SKQY859ZK7;
 				INFOPLIST_FILE = ThangRevisedContactPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +712,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SKQY859ZK7;
 				INFOPLIST_FILE = ThangRevisedContactPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
